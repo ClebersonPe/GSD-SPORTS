@@ -1,0 +1,89 @@
+
+main.slider {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mainc{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.mainc input{
+    display: none;
+}
+
+.mainbanner{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 0.5s;
+ 
+}
+
+
+
+
+.mainbanner img{
+    width: 100%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 54%;            /*container pai das bolinha*/
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .botao-manual, .nav-auto div{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50%;         /*estilizando as bolinha, fazendo virar bolinha no caso*/
+    cursor: pointer;
+}
+
+.nav-manual .botao-manual:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;                                       /*todo mundo recebe um espaçamento, menos a ultima bolinha*/
+}
+
+.nav-manual .botao-manual:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .nav-auto .botao-auto1{
+    background-color: white;
+}
+
+#radio2:checked ~ .nav-auto .botao-auto2{               /*quando o input for marcado, o botao tambem é marcado (background color)*/
+    background-color: white;
+}
+
+#radio3:checked ~ .nav-auto .botao-auto3{
+    background-color: white;
+}
+
+#radio4:checked ~ .nav-auto .botao-auto4{
+    background-color: white;
+}
+
+#radio1:checked ~ .primeiro{                           /*quando o input for marcado, o evento de margin acontece*/
+    margin-left: 0;
+}
+
+#radio2:checked ~ .segundo{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .terceiro{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .quarto{
+    margin-left: -75%;
+}

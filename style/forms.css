@@ -1,0 +1,94 @@
+.form{
+    border: none;
+    width: 300px;
+    height: 400px;
+    background: rgb(129, 137, 159);
+    background: linear-gradient(90deg, rgba(23,26,35,1) 0%, rgb(32, 32, 64) 0%, rgba(44,65,130,1) 100%);
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 80;
+    margin-left: 68%;
+    display: none;
+    transition: 0.4s;
+  
+    
+}
+
+.form form fieldset{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form fieldset h2{
+    text-align: center;
+    padding: 5px;
+    color: #48cae4;
+    
+}
+
+.form form fieldset label{
+    font-size: 20px;
+}
+
+.form form fieldset input{
+    height: 50px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+
+#senha{
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+}
+
+#email{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#submit{
+    background: rgb(242,0,48);
+    background: linear-gradient(90deg, rgba(242,0,48,1) 0%, rgba(240,30,72,1) 100%);
+    width: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    color: white;
+    border: 1px outset;
+}
+
+.form p{
+    text-align: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    
+}
+
+.form p a{
+    color: #a3affc;
+   
+    text-transform: none;
+
+    color: #48cae4;
+    
+}
+
+
+
+
+
+
+
+
+
