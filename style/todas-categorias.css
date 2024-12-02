@@ -273,9 +273,66 @@ footer{
     display: none;
 }
 
+@media (max-width: 500px){
+    .container2 .sports img{
+       height: 20px;
+       width: 20px;
+    }
+
+    .container2 .sports h1{
+        font-size: 1.3rem;
+    }
+
+  
+
+    .shirt{
+        height: auto;
+    }
+
+    .shirt img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .listas .reclame img {
+        width: 100%;
+        height: 150px;
+        
+    }
+
+    .listas {
+        align-items: center;
+    }
+
+    .redes{
+        width: 100%;
+    }
+
+    ul .pag{
+        width: fit-content;
+    }
+
+    .titulo2{
+        text-align: center;
+        width: 100%
+    }
+
+    .titulo{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    
+}
+
 
 
 @media (max-width: 970px){
+    .listas {
+        align-items: center;
+    }
+
     .login{
         position: relative;
     }
@@ -289,14 +346,14 @@ footer{
     }
 
     .filtro{
-        border: solid;
+      
         all: unset;
         
        
     }
 
     .container4{
-        border: solid;
+       
         all: unset;
     }
 
