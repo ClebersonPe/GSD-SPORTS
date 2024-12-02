@@ -1,0 +1,597 @@
+.menu{
+    display: none;
+    position: relative;
+    z-index: 20;
+}
+
+.menu img{
+    height: 60px;
+    width: 60px;
+}
+
+.lupa{
+    display: none;
+    position: relative;
+    z-index: 22;
+}
+
+
+@media (max-width: 1210px){
+
+    .lupa{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 7%;
+        margin-right: 5px;
+    }  
+}
+
+@media (max-width: 970px){
+
+    
+
+    .menu{
+        display: flex;
+        align-items: center;
+        
+    }
+    .fundo .container nav .icone p{
+      display: none;
+    }
+
+    .fundo .container nav .icone img{
+        height: 45px;
+        width: 45px;
+    }
+
+   
+
+    .fundo .container nav .logo{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        
+    }
+
+    .fundo .container nav{
+        flex-direction: row-reverse;
+    }
+
+    .form{
+        margin-left: 41%;
+    }
+
+    .fundo .container nav .ul{
+        position: fixed;
+        background-color: #F01E48;
+        top: 0 ;
+        width: 28%;
+        height: 100%;
+        left: -100%;
+        transition: 0.3s;
+        flex-direction: column;
+        justify-content: center;
+        gap: 28px;
+        z-index: 13;
+        padding-top: 90px;
+        
+    
+    }
+    .fundo .container nav .pesquisa {
+        position: fixed;
+        top: 0 ;
+        width: 100%;
+        height: 100%;
+        left: 100%;
+        transition: 0.3s;
+        z-index: 21;
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        background-color: #F01E48;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    } 
+
+    .fundo .container nav .pesquisa input{
+        margin-bottom: 50px;
+        padding: 55px 100px;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        
+       
+    }
+
+    .fundo .container nav .pesquisa .buscar{
+        z-index: none;
+        height: 40px;
+        position: relative;
+        display: block;
+        margin: 0;
+        border-radius: 60px 60px 60px 60px;
+        background-color: rgb(4, 2, 43);
+    }
+
+    .buscar button{
+        background-color: white;
+       
+    }
+    
+
+    .fundo .container nav .pesquisa.ativado{
+        left: 0;
+    }
+    
+
+    
+
+    .fundo .container nav ul.ativo{
+        left: 0;
+    }
+
+    .container nav .ul li{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px outset white;
+
+        
+    }
+
+    
+    .fundo .container nav .ul li a{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .listas .reclame img {
+        width: 100%;
+        height: 150px;
+        
+    }
+
+    .listas {
+        align-items: center;
+    }
+
+    .redes{
+        width: 100%;
+    }
+
+    ul .pag{
+        width: fit-content;
+    }
+
+    .ul .insta{
+        display: flex;
+        margin-top: 2em;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .ul .logo_icon img{
+        display: block;
+        height: 100px;
+        width: 100px;
+    }
+
+    .logo_icon{
+        display: block;
+    }
+                                                /*section*/
+    section .container .sports{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 8%;
+        gap: 15px;
+        padding: 0 5px;
+        
+    }
+
+    
+    section .container .sports .futebol{
+        width: 95%;
+        height: 50%;
+        padding: 15px 20px;
+        background-size: 115%;
+        border-radius: 5px;
+    }
+
+    section .container .sports .basquete{
+        width: 95%;
+        height: 50%;
+        padding: 5px 20px;
+        background-size: 115%;
+        border-radius: 5px;
+        
+    }
+
+    section .container .sports h2{
+        font-size: 1.8rem;
+    }
+
+    .botao button{
+        padding: 2px 6px;
+        font-size: 1rem;
+        
+    }
+
+    .inf .container{
+        flex-direction: column;
+        height: 800px;
+        width: 90%;
+        padding: 5px 0;
+        margin-top: 9%;
+        justify-content: space-around;
+        
+    }
+
+    .inf .container .desconto{
+        flex-direction: column;
+        width: 50%;
+        text-align: center;   
+    }
+
+    /*parte das fotos modelos*/
+
+    .modelo{
+        height: 1500px;
+        border: solid;
+    }
+
+    .modelo .roupas{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .modelo .roupas .img1{
+        width: 100%;
+        height: 30%;
+       
+       
+    }
+
+    .modelo .gabigol{
+       height: 40%;
+       
+        
+    }
+
+    .modelo .gabigol .img2{
+        background-image: url(../img/gabigol_mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .conteudo{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background-image: url(../img/fundo\ azul.png);
+    }
+
+    .camisas{
+        width: 70%;
+        
+    }
+
+    .promo{
+        background-image: url(../img/fundo\ azul.png);
+        margin-bottom: -15px;
+        margin-top: -1.2em;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /*marcas*/
+
+    .setor5 .marcas{
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+       
+        border-radius: 0 0 20% 20%;
+       
+    }
+
+    .setor5{
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        padding: 5% 10%;
+
+    }
+
+    .setor5 .marcas img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .ex{
+        display: none;
+    }
+
+    /*minha historia*/
+
+    .quadro{
+        margin-top: 15%;
+        margin-bottom: 30%;
+    }
+
+    
+
+    .minha-historia p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .minha-historia{
+        padding: 0 0%;
+    }
+
+    .container-branco{
+        width: 78%;
+    }
+
+    .caixa img{
+        height: 70px;
+    }
+
+    .caminhao img{
+        height: 70px;
+    }
+
+    /*INSTAGRAM DUVIDAS*/
+
+    .fotoinsta{
+        flex-direction: column;
+    }
+
+    .duvidas{
+        width: 100%;
+    }
+
+    .fotoinsta img{
+        width: 100%;
+    }
+
+   .duvidas p{
+        font-size: 1.1rem;
+    }
+
+    summary{
+        font-size: 1.3rem;
+    }
+
+    /*CADASTRE-SE*/
+
+    .invite{
+        margin-top: 10%;
+    }
+
+    .dados{
+        flex-direction: column;
+    }
+
+    .cadastro{
+        width: 100%;
+    }
+
+    .cadastro p{
+        font-size: 1.8rem;
+    }
+
+    .mail{
+        width: 100%;
+
+        margin-top: 1.5%;
+    }
+
+    .mail form{
+        padding: 0 1%;
+        gap: 20px;
+    }
+
+    .mail form input{
+        width: 100%;
+    }
+
+    #nome{
+        margin-bottom: -2em;
+    }
+
+    .cd{
+        margin-bottom: 3%;
+    }
+
+    /*footer*/
+    .listas{
+        flex-direction: column;
+        border-bottom: solid white;
+        margin-bottom: 8px;
+        align-items: center;
+       
+     
+    }
+
+    
+
+    .listas ul{
+    
+        width: 100%;
+        margin: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+    }
+
+    .listas ul li{
+        font-size: 0.9rem;
+    }
+
+    .listas ul h3{
+        font-size: 1.1rem;
+    }
+
+    ul .pag{
+        margin-bottom: 5px;
+        width: 50%;
+
+    }
+
+    .listas .reclame{
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+    }
+
+    .endereços{
+        flex-wrap: wrap;
+   
+        height: auto;
+        
+    }
+
+    .endereços .logo_footer{
+        
+        width: 100%;
+        margin: 1em;
+    }
+
+    .endereços .direitos{
+      
+        width: 100%;
+        margin: 1em;
+    }
+
+    .direitos p{
+        text-align: start;
+        font-size: 0.8rem;
+    }
+
+    .redes{
+        
+        width: 50%;
+        margin: 1em;
+    }
+
+    /*TODAS AS CATEGORIAS*/
+
+    .teste{
+        display: none;
+    }
+
+    .container4{
+        border: solid white;
+        width: 100%;
+    }
+
+    .gsd{
+        width: 100%;
+      
+    }
+
+    .shirt{
+        width: 100%;
+        display: block;
+    }
+
+    .container3{
+       position: fixed;
+       width: 50%;
+    }
+
+
+    
+
+   
+    
+
+}
+
+@media (max-width: 550px){
+    .minha-historia p{
+        font-size: 1rem;
+    }
+
+    ul .pag{
+        width: fit-content;
+    }
+
+    .listas .reclame img {
+        width: 100%;
+        height: 150px;
+        
+    }
+
+    .listas {
+        align-items: center;
+    }
+
+    .redes{
+        width: 100%;
+    }
+
+    .nav-manual .botao-manual, .nav-auto div{
+        padding: 2px;
+    }
+
+    .camisas{
+       
+        width: 100%;
+    }
+
+    
+
+    .gabigol .img2{
+        background-position: right;
+    }
+
+    .quadro{
+        margin-bottom: 10%;
+       
+        
+    }
+
+    .minha-historia p{
+        text-align: justify;
+      
+    }
+
+    .minha-historia{
+        padding: 0;
+        height: 720px;
+    }
+
+    .container-branco{
+        border: solid;
+        justify-content: center;
+    }
+
+    .caixa{
+        display: none;
+    }
+    .caminhao{
+        display: none;
+    }
+
+    .form{
+        margin-left: 15%;
+    }
+
+    
+
+
+
+
+
+}

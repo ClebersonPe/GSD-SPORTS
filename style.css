@@ -1,0 +1,997 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1A1F2C;
+}
+                                       /*AQUI COMEÇA O CABEÇALHO*/
+
+.fundo{
+    background-color: #F01E48;
+}
+
+.login{
+    background-color: black;
+    text-align: center;
+    padding: 10px 5px;
+    
+}
+
+.login button{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background: none;
+    border: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.fundo .container nav{
+    display: flex;
+    justify-content:space-between ;
+    width: 100%;
+}
+
+
+
+.insta{
+    display: none;
+}
+
+.logo_icon{
+    display: none;
+}
+
+.fundo .container nav .logo img{
+    height: 115px;
+   
+
+}
+
+.fundo .container nav .logo{
+    width: 25%;
+    text-align: center;
+}
+
+.fundo .container nav .icone img{
+    height: 35px;
+    width: 35px;
+    
+
+}
+
+.fundo .container nav .icone{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.fundo .container nav .ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.fundo .container nav .ul li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fundo .container nav .ul{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 55px;
+
+
+}
+
+
+.fundo .container nav .pesquisa{
+    width: 40%;
+    padding: 24.9px;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo .container nav .pesquisa input{
+    padding: 10px 150px;
+    height: 44.4px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    outline: none;
+
+
+}
+
+.login .entrar{
+    height: 20px;
+    width: 20px;
+}
+
+.fundo .container nav .pesquisa .buscar{
+    height: 44px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 32em;
+    margin-top: 0.8em;
+    padding: 10px;
+    border-radius: 45px 0 0 45px;
+    border: none;
+    background-color: #171a23;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+   
+   
+
+
+.fundo .container nav .icone {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.fundo .container nav .icone p{
+   color: white;
+   font-family: sans-serif;
+   font-weight: 600;
+    
+}
+
+
+
+.fundo .container nav .icone:hover{
+    border: 2px outset white;
+    transition: 0.1s;
+   
+}
+
+
+                                                           
+                                                            /*SETOR */
+
+section .container{
+    width: 100%;
+    height: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+section .container .sports{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+
+}
+
+section .container .sports .basquete{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;  
+    align-items: start;  
+    width: 48%;   
+    padding: 10px;
+    background-image: url(../img/cestaB.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 103%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+
+.botao{
+    margin-top: auto;
+    cursor: pointer;
+}
+
+section .container .sports .futebol{
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between; 
+    align-items: start; 
+    height: 100%; 
+    width: 48%;    
+    padding: 10px;
+    background-image: url(../img/futzazul.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 103%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.botao button{
+    padding: 14px 25px;
+    background-color: #F01E48;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+section .container .sports h2{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+section .container .sports  :hover{
+    background-size: 115%;
+    background-repeat: no-repeat;
+    
+    transition: 0.5s;    
+}
+
+
+/* Inicio da aba desconto*/
+
+.inf .container{
+    display: flex;
+    width: 1250px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    gap: 33px;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+
+.inf .container .desconto{
+    width:30% ;
+    height: 150px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-transform: capitalize;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.inf .container .desconto:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.inf .container .desconto h2{
+    color: #171a23;
+}
+
+.inf .container img{
+    width: 90px;
+    height: 90px;
+}
+
+
+/*inicio do setor de modelos kkkk*/
+
+
+.modelo{
+   
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.modelo .roupas{
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.modelo .roupas .img1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/daniel2.jpg);
+    background-size: cover;
+    
+    padding-left: 60px;
+    gap: 20px;
+    
+}
+
+#foto2{
+    background-image: url(../img/daniel_c.png);
+    
+}
+
+.modelo .roupas .img1 button{
+    height: 20px;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #ffff;
+
+}
+
+.modelo .roupas .img1 button:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(0, 0, 0) 10px -10px, rgb(251, 251, 251) 20px -20px 0px -3px, rgb(0, 0, 0) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(0, 0, 0) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(0, 0, 0) 40px -40px;
+    transition: 0.8s;
+    border: 1px solid;
+}
+
+.modelo .roupas .img1 img{
+    border: solid white;
+    background-color: white;
+}
+
+.modelo .gabigol{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.modelo .gabigol .img2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/gabigol_pc\ \(1\).png);
+    background-size: cover;
+    margin: 0 auto;
+    padding-left: 60px;
+    gap: 20px;
+
+}
+
+
+
+.modelo .gabigol .img2 button{
+    height: 20px;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #ffff;
+    font-family: sans-serif;
+   
+}
+
+.modelo .gabigol .img2 button:hover{
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(0, 0, 0) 10px -10px, rgb(251, 251, 251) 20px -20px 0px -3px, rgb(0, 0, 0) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(0, 0, 0) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(0, 0, 0) 40px -40px;
+    transition: 0.8s;
+}
+
+.modelo .gabigol .img2 img{
+    height: 28px;
+    cursor: pointer;
+    background-color: white;
+    border: solid white;
+}                 
+
+/*SEGUNDA PAGINA*/
+
+.promo{
+    margin: 0 auto;
+    padding: 0 3%;
+}
+.ofertas{
+    color: #F01E48;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.ofertas img{
+    height: 50px;
+    width: 50px;
+}
+
+.conteudo{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.camisas{
+    height: 48%;
+    width: 19%;
+    border-radius: 10px;
+    background-image: url(../img/fundo\ azul.png);
+    
+}
+
+
+.camisas img{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/fundo\ azul.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0px;
+}
+
+.conteudo .camisas .desc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    border-top: 1px white solid;
+   
+}
+
+.desc:hover .preco_tamanho h3, .desc:hover .preco_tamanho p {
+    background-color: #ffffff;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: black;
+}
+.preco_tamanho{
+    display: flex;
+    width: 90%;
+    padding: 5px;
+    
+    gap: 10px;
+    
+}
+
+.preco_tamanho h3{
+    color: rgb(236, 203, 12);
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+}
+
+.preco_tamanho p{
+    color: silver;
+    text-decoration: line-through;
+    
+}
+
+.nome-camisa p{
+   color: silver;
+   font-size: 10px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.nome-camisa h3{
+    color: #ffffff;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn_comprar{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn_comprar a button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+    color: #F01E48;
+    font-weight: bold;
+    border: none;
+}
+
+.btn_comprar a button:hover{
+    background-color: #F01E48;
+    color: white;
+}
+
+/*INICIO DAS MARCAS OU CATEGORIA DEPENDE DOS CARA*/
+
+.setor5{
+    margin-top: 8%;
+    height: 100px;
+    padding: 0 8%;
+    margin-bottom: 9%;
+    width: 90%;
+    margin-left: 4.5em;
+   
+   
+}
+
+
+
+
+.setor5 .marcas {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    
+}
+
+.setor5 .marcas:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.setor5 .marcas img{
+    height: 150px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 10px solid transparent;
+    padding: 5px;
+
+    
+}
+
+.setor5 .marcas img:hover{
+    border: solid #F01E48;
+    transition: 0.8s;
+}
+
+
+
+/* Inicio minha historia*/
+
+.quadro{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+    }
+
+.minha-historia{
+    background-image: url(../img/fundo\ com\ bola.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 430px;
+    padding: 0% 17%;
+    gap: 10px;
+}
+ .quadro .minha-historia .jorge{
+    text-align: center;
+    color: rgb(252, 54, 54);
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 9px;
+
+}
+
+.container-branco{
+    color: #a3affc;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    width: 60%;
+    height: 500px;
+    padding: 2% 2%;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.minha-historia p{
+    color: black;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.caminhao{
+    width: 20%;
+
+
+}
+
+.caixa{
+    width: 20%;
+  
+
+}
+
+.brasil{
+    width: 50%;
+    height: 100% ;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+   
+
+}
+
+
+.caminhao img{
+    width: 100%;
+    height: 100px;
+   
+
+}
+
+.caixa img{
+    width: 100%;
+    height: 100px;
+    
+   
+}
+
+.brasil .frete h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: none;
+    
+    
+}
+
+.brasil h2{
+    text-align: center;
+    color: #000097;
+}
+
+.brasil .frete{
+    background-color: #000097;
+    padding: 35px;
+    border-radius: 9px;
+}
+
+.brasil .frete input{
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+}
+
+/*INSTAGRAM E DÚVIDAS*/
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    background-image: url(../img/fundo_instagram.png);
+    background-size: cover;
+}
+
+.fotoinsta{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.fotoinsta img{
+    width: 50%;
+    
+}
+
+.duvidas{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 20px;
+    padding: 2%;
+    color: white;
+
+}
+
+.duvidas h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.duvidas details{
+
+    width: 100%;
+    padding: 0 1%;
+    padding-top: 3px;
+    border-bottom: 1px solid white;
+    border-radius: 7px;
+    text-align: justify;
+    cursor: pointer;
+    
+}
+
+.duvidas details summary{
+    height: 30px;
+}
+
+.duvidas .cartoes img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.duvidas .cartoes{
+   gap: 10px;
+}
+
+/*CADASTRE-SE COMEÇA AQUI*/
+
+.invite{
+    margin-top: 3%;
+    width: 100%;
+    background-color: #222a3a;
+    
+    
+}
+
+.cadastro{
+    color: white;
+    width: 50%;
+    height: auto;
+    font-family: sans-serif;
+  
+    
+}
+
+.cadastro p{
+    font-size: 2.5rem;
+    text-align: start;
+}
+
+.cadastro h2{
+    margin-bottom: 10px;
+}
+
+.cadastro p span{
+    color: #48cae4;
+}
+
+.mail{
+    width: 50%;
+    
+  
+    
+}
+
+.dados{
+    display: flex;
+    width: 100%;
+    padding: 2% 4%;
+    height: 100%;
+    align-items: center;
+}
+
+.mail form{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    
+   
+   
+}
+
+.mail form input{
+    padding: 5px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 15px 5px;
+    text-align: center;
+    font-family: sans-serif;
+    
+   
+}
+
+
+
+#nome{
+    padding: 15px 5px;
+}
+
+#email{
+    padding: 15px 5px;
+   
+}
+
+.cd{
+    background-color: #48cae4;
+    cursor: pointer;
+    color:#222a3a
+  
+}
+
+.cd:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: 0.5s;
+}
+
+
+/*FOOTER*/
+
+footer .rodape{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #000097;
+    padding: 3% 5%;
+}
+
+.listas{
+    border-bottom: solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    
+    
+}
+
+.listas .reclame img{
+    width: 400px;
+    height: 150px;
+}
+
+.listas ul{
+    font-family: sans-serif;
+   
+    list-style: none;
+    width: 15%;
+  
+}
+
+.listas ul li{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.listas ul h3 {
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+ul .pag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 6%;
+}
+
+.listas ul img{
+    float: left;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin:  0;
+}
+
+.listas .reclame{
+    width: 30%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.endereços{
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endereços .logo_footer img{
+    height: 90px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.direitos p{
+    color: silver;
+    font-size: 15px;
+}
+
+.redes{
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.redes img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+.listas ul li:hover{
+    color: #f56565;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
