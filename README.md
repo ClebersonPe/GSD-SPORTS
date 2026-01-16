@@ -20,7 +20,7 @@ Apesar de não funcionar diretamente utlizando um sistema backend, a tela de pro
 ## Banners do site
 
 Um ponto importante deste projeto é que todos os banners foram criados de forma totalmente autoral, desde o design até a aplicação no sistema.
-Eles foram desenvolvidos por mim utilizando o Canva, durante um dos meus primeiros contatos com a ferramenta, reforçando minha capacidade de aprendizado rápido, autonomia e adaptação a novas tecnologias.
+Eles foram desenvolvidos por mim utilizando o Canva, durante um dos meus primeiros contatos com a ferramenta.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/242ffe23-5eec-4354-aefe-825f3f536476" />
 
